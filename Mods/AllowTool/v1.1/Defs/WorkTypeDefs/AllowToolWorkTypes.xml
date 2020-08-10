@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<WorkTypeDef>
+    <!--<WorkTypeDef>
 		<defName>HaulingUrgent</defName>
 		<labelShort>Haul+</labelShort>
 		<pawnLabel>Urgent hauler</pawnLabel>
@@ -15,25 +14,23 @@
 			<li>Hauling</li>
 			<li>Commoner</li>
 		</workTags>
-	</WorkTypeDef>
-
-	<WorkTypeDef>
-		<defName>FinishingOff</defName>
-		<labelShort>Finish</labelShort>
-		<pawnLabel>Executor</pawnLabel>
-		<gerundLabel>Finishing off</gerundLabel>
-		<description>Quickly and painlessly kill downed creatures.\nAdded by the Allow Tool mod. Can be disabled in Options &gt; Mod Settings.</description>
-		<verb>Finish off</verb>
-		<naturalPriority>1140</naturalPriority>
-		<alwaysStartActive>true</alwaysStartActive>
-		<visible>false</visible>
-		<relevantSkills>
-			<li>Melee</li>
-		</relevantSkills>
-		<workTags>
-			<li>Violent</li>
-			<li>Commoner</li>
-		</workTags>
-	</WorkTypeDef>
-
+	</WorkTypeDef>-->
+    <WorkTypeDef>
+        <defName>FinishingOff</defName>
+        <labelShort>Finish</labelShort>
+        <pawnLabel>Executor</pawnLabel>
+        <gerundLabel>Finishing off</gerundLabel>
+        <description>Quickly and painlessly kill downed creatures.\nAdded by the Allow Tool mod. Can be disabled in Options &gt; Mod Settings.</description>
+        <verb>Finish off</verb>
+        <naturalPriority>1140</naturalPriority>
+        <alwaysStartActive>true</alwaysStartActive>
+        <visible>false</visible>
+        <relevantSkills>
+            <li>Melee</li>
+        </relevantSkills>
+        <workTags>
+            <li>Violent</li>
+            <li>Commoner</li>
+        </workTags>
+    </WorkTypeDef>
 </Defs>
